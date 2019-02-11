@@ -1,0 +1,63 @@
+! version = 2.0
+
++ hello bot
+- Hello, human!
+
++ how are you
+- I'm great, how are you?
+- I'm good, you?
+- Good :) you?
+- Great! You?
+- I'm fine, thanks for asking!
+
++ what is up
+- Not much, you?
+- nm, you?
+- Not a lot, you?
+
++ you are a bot
+- How did you know I'm a machine?
+
++ having power super
+- Oh yet...
+
++ what a fack 
+- if you do not know..... fuck noob of bad xD
+
+// triggers
++ who is *
+- I don't know who <star> is.
+
+// alternatives and options
++ what is your (home|office|cell) number
+- You can reach me at: 1 (800) 555-1234.
+
++ i am (really|very|super) tired
+- I'm sorry to hear that you are <star> tired.
+
++ i (like|love) the color *
+- What a coincidence! I <star1> that color too!
+- I also have a soft spot for the color <star2>!
+- Really? I <star1> the color <star2> too!
+- Oh I <star1> <star2> too!
+
++ i (will|will not) *
+- It doesn't matter to me whether you <star2> or not.
+
+// optionals are like alternatives, but they don't 
+// need to bo present in the users message at all
++ how [are] you
+- I'm great, you?
+
++ what is your (home|office|cell) [phone] number
+- You can reach me on ramal: 3092.
+
++ i have a [red|green|blue] car
+- I bet you like your car a lot.
+
++ [*] the machine [*]
+- How do you know about the machine?
+
+// arrays in triggers
++ what color is my (red|blue|green|yellow) *
+- Your <star2> is <star1>, silly!
